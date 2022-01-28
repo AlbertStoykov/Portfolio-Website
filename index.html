@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>Albert Stoykov Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="navigation toggle">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects & Certificates</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro -->
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <strong>Albert Stoykov</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Front-end Dev</p>
+            <img src="images\Photo.jpg" alt="A picture of Albert smiling" class="intro__img">
+        </section>
+
+        <!-- Skills -->
+        <section class="my-skills" id="skills">
+            <h2 class="section__title section__title-skills">Skills</h2>
+            <div class="skills-wrapper">
+                <div class="pc-image">
+                    <div class="skill">
+                        <img
+                        class="skill__item" 
+                        src="https://img.icons8.com/color/96/000000/html-5--v1.png"
+                        alt="html"
+                        loading="lazy"
+                        />
+                        <h3>HTML</h3>
+                    </div> <!-- / skill -->
+                    
+                    <div class="skill">
+                        <img
+                        class="skill__item" 
+                        src="https://img.icons8.com/color/96/000000/css3.png"
+                        alt="css"
+                        loading="lazy"
+                        />
+                        <h3>CSS</h3>
+                    </div> <!-- / skill -->
+
+                    <div class="skill">
+                        <img
+                        class="skill__item" 
+                        src="https://img.icons8.com/color/96/000000/javascript--v2.png"
+                        alt="js"
+                        loading="lazy"
+                        />
+                        <h3>JavaScript</h3>
+                    </div> <!-- / skill -->
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About me:</h2>
+            <p class="section__subtitle section__subtitle--about">Web Dev based in London, UK</p>
+            <div class="about-me__body">
+                <p>A Bsc Psychology graduate, with over 5 years experience in the Healthcare sector. 
+                Currently expanding my coding knowledge and skills, working towards employment within Tech.
+                Interested in Buddhism, football and NFTs.</p>
+                <p></p>
+            </div>
+            <img src="images/PAG.jpg" class="about-me__img" alt="Psychedelics Anonymous"> 
+        </section>
+
+        <!-- Projects & Certificates -->
+        <section class="projects" id="projects">
+            <h2 class="project_section__title">Projects & Certificates</h2>
+
+            <div class="portfolio">
+                <!-- Portfolio item 1 -->
+                <a href="https://albertstoykov.github.io/rpsgame.github.io/" target="_blank" class="portfolio__item">
+                    <img src="images/rps-game.jpg" alt="" class="portfolio__img">
+                </a>
+                
+
+                <!-- Portfolio item 2 -->
+                <a href="https://www.freecodecamp.org/certification/be4o92/responsive-web-design" target="_blank" class="portfolio__item">
+                    <img src="images/html&css.png" alt="" class="portfolio__img">
+                </a>
+                
+
+                <!-- Portfolio item 3 -->
+                <a href="https://www.freecodecamp.org/certification/be4o92/javascript-algorithms-and-data-structures" target="_blank" class="portfolio__item">
+                    <img src="images/JavaScript.png" alt="" class="portfolio__img">              
+                </a>
+
+                <!-- Portfolio item 4-->
+                <a href="#" class="portfolio__item portfolio__item_4">
+                    <img src="images/more coming soon.jpg" alt="" class="portfolio__img">              
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+
+    <section class="contact" id="contact">
+        <h2 class="contact_title">Get In Touch</h2>
+        <div class="contact_form_container">
+            <div class="contact_form">
+                <form action="https://formspree.io/f/mzbobvgl" method="POST">
+
+                    <!-- Name -->
+                    <div class="form_control">
+                        <label for="name"></label>
+                        <input 
+                            type="text"
+                            id="name"
+                            name="sender_name"
+                            placeholder="Name"
+                            class="input-field"
+                            required
+                        />
+                    </div>
+
+                    <!-- Email -->
+                    
+
+                    <div class="form_control">
+                        <label for="Email"></label>
+                        <input 
+                            type="email"
+                            id="email"
+                            name="sender_email"
+                            placeholder="Email"
+                            class="input-field"
+                            required
+                        />
+                    </div>
+
+                    <!-- Message -->
+                    <div class="form_control">
+                        <label for="message"></label>
+                        <textarea 
+                            id="messsage"
+                            cols="60"
+                            rows="6"
+                            name="sender_message"
+                            placeholder="Message"
+                            class="input-field"
+                            required
+                        ></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit_btn"/>
+
+                </form>    
+            </div>
+        </div>
+    </section>
+
+
+
+
+    </body>
+    <footer class="footer">
+
+        <ul class="social_list">
+    <!--FreeCodeCamp-->   <li class="social_list_item"><a class="social_list__link" href="https://www.freecodecamp.org/be4o92" target="_blank"><i class="fab fa-free-code-camp"></i></a></li>
+        <!--GitHub-->     <li class="social_list_item"><a class="social_list__link" href="https://github.com/AlbertStoykov" target="_blank"><i class="fab fa-github"></i></a></li>
+        <!--LinkedIn-->   <li class="social_list_item"><a class="social_list__link" href="https://www.linkedin.com/in/albert-stoykov-b10695a8/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <!--Twitter-->    <li class="social_list_item"><a class="social_list__link" href="https://twitter.com/be4o92" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        
+        <p class="copy">&copy; Copyright 2022. Built by Albert Stoykov</p>
+    </footer>
+</html>
