@@ -1,14 +1,17 @@
 # Portfolio-Website
 
 ## Table of contents
+
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Sources](#Sources)
-* 
+ 
 ## General info
+
 This project is a Website Portfolio.
 	
 ## Technologies
+
 Project is created with:
 * HTML
 * CSS
@@ -16,6 +19,7 @@ Project is created with:
 
 ## Sources
 This portfolio was inspired by:
+
 * Before Semicolon (https://rb.gy/xmkgwx)
 * Kevin Powell (https://rb.gy/jp6rra)
 * Kolade Chris (https://rb.gy/7gqdum)
