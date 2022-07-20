@@ -12,7 +12,6 @@ This project is a Website Portfolio.
 	
 ## Technologies
 
-Project is created with:
 * HTML
 * CSS
 * JavaScript
