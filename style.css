@@ -174,7 +174,7 @@ header {
     width: min-content;
     min-height: 650px;
     top: 50em;
-    margin: 6em auto;
+    margin: 7em auto;
     grid-column-gap: 1em;
     grid-template-areas:
       "img title"
@@ -227,7 +227,6 @@ header {
   color: var(--clr-accent);
 
   text-align: center;
-  background-blend-mode: soft-light;
   width: 100%;
   height: auto;
 }
@@ -251,7 +250,7 @@ header {
 
   .pc-image {
     display: inline-block;
-    grid-template-areas: "skill skill skill";
+    grid-template-areas: "skill skill skill skill";
   }
 }
 
@@ -355,7 +354,74 @@ header {
 }
 
 /* Projects */
+/*  */
+.container {
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 240px auto;
+}
+.container .box {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background-color: #ff0;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
+.container .box .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f00;
+  transition: 0.5s;
+  z-index: 1;
+}
+.container .box:hover .icon {
+  top: 20px;
+  left: calc(50% - 40px);
+  font-size: 52px !important;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.container .box .icon .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* width: 20px !important;
+  font-size: 800px !important; */
+  transition: 0.5s;
+  color: white;
+}
+.container .box:hover .icon .fa {
+  font-size: 40px;
+}
+/*  */
+
+/*  */
+.wrapper {
+  position: relative;
+  width: 200px;
+}
+.wrapper:hover .showOnHover {
+  display: block !important;
+}
+.showOnHover {
+  display: none;
+  text-decoration: none;
+  position: absolute;
+  top: 100px;
+  height: 100%;
+}
+/*  */
 .projects {
   background-color: var(--clr-accent);
   color: var(--clr-dark);
@@ -395,7 +461,7 @@ header {
   overflow: hidden;
 }
 
-.portfolio__item_4 {
+.portfolio__wait {
   cursor: wait;
 }
 
