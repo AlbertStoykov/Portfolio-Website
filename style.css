@@ -16,7 +16,7 @@ html {
   --ff-bold: 900;
 
   --clr-light: #fefcfd;
-  --clr-dark: #202124;
+  --clr-dark: #051111;
   --clr-accent: #4ecdc4;
 
   --fs-h1: 3rem;
@@ -411,18 +411,15 @@ header {
 .card .card_content {
   position: relative;
   z-index: 3;
-  color: white;
+  color: var(--clr-light);
   opacity: 0;
   transform: translateY(-5px);
   transition: 0.5s;
 }
-.project_name {
-  /* background-color: var(--clr-dark); */
-}
+
 .card .project_name {
   background-color: var(--clr-light);
   color: var(--clr-dark);
-  /* padding: 5px; */
   border-radius: 10px;
   font-size: 2.5rem;
   font-weight: var(--ff-bold);
