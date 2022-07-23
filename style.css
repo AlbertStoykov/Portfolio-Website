@@ -354,17 +354,19 @@ header {
 }
 
 /* Projects */
-/*  */
+
 .project_wrapper {
   display: flex;
-  width: 90%;
+  width: 100%;
   justify-content: space-around;
 }
 
 .card {
-  width: 280px;
-  height: 160px;
+  width: 380px;
+  height: 200px;
+  justify-content: center;
   border-radius: 15px;
+  margin: 1rem;
   padding: 1.5rem;
   background: white;
   position: relative;
@@ -376,7 +378,7 @@ header {
 .card:hover {
   transform: translateY(-20px);
 }
-.card:hover:before {
+.card_opacity:hover:before {
   opacity: 1;
 }
 .card:hover .card_content {
@@ -415,6 +417,8 @@ header {
   transition: 0.5s;
 }
 .card .project_name {
+  font-size: 2.5rem;
+  font-weight: var(--ff-bold);
   margin: 0px;
 }
 
@@ -438,7 +442,9 @@ header {
   text-shadow: 0.3px 0.3px var(--clr-light);
 }
 
-/*  */
+.cert {
+  cursor: pointer;
+}
 
 .projects {
   background-color: var(--clr-accent);
@@ -448,14 +454,14 @@ header {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 300px);
   margin: 0 auto;
 }
 
 @media (min-width: 350px) {
   .portfolio {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin: 10px 10px auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 10px auto;
   }
 
   .my-skills {
@@ -481,9 +487,6 @@ header {
 
 .portfolio__wait {
   cursor: wait;
-}
-.portfolio__wait:hover {
-  opacity: 1 !important;
 }
 
 .project_section__title {
