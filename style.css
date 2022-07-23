@@ -416,20 +416,31 @@ header {
   transform: translateY(-5px);
   transition: 0.5s;
 }
+.project_name {
+  /* background-color: var(--clr-dark); */
+}
 .card .project_name {
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  /* padding: 5px; */
+  border-radius: 10px;
   font-size: 2.5rem;
   font-weight: var(--ff-bold);
   margin: 0px;
 }
+.google {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
 
 .card .card_btn {
-  padding: 0.6rem;
+  padding: 0.7rem;
   outline: none;
   border: none;
   margin: 15px 15px auto;
-  border-radius: 3px;
-  background: var(--clr-dark);
-  color: var(--clr-light);
+  border-radius: 10px;
+  background: var(--clr-light);
+  color: var(--clr-dark);
   font-weight: bold;
   cursor: pointer;
   transition: 0.4s ease;
@@ -437,8 +448,7 @@ header {
 }
 
 .card .card_content button:hover {
-  background: var(--clr-accent);
-  color: var(--clr-dark);
+  background-color: var(--clr-accent);
   text-shadow: 0.3px 0.3px var(--clr-light);
 }
 
