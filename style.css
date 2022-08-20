@@ -6,7 +6,7 @@
 
 html {
   /* scroll-behavior: smooth; */
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
 }
 
 :root {
@@ -47,6 +47,10 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
+}
+
+.scroll {
+  scroll-snap-align: center;
 }
 
 section {
