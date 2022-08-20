@@ -48,10 +48,6 @@ body {
   line-height: 1.6;
 }
 
-.scroll {
-  scroll-snap-align: center;
-}
-
 section {
   padding: 5em 2em;
 }
