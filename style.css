@@ -40,7 +40,7 @@ html {
 /* General Styles */
 
 body {
-  background: var(--clr-dark);
+  /* background: var(--clr-dark); */
   color: var(--clr-light);
   margin: 0;
   font-family: var(--ff-primary);
