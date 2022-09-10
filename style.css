@@ -54,12 +54,12 @@ section {
 
 img {
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 :focus {
   outline: 3px solid var(--clr-accent);
-  outline-offset: 3px;
+  /* outline-offset: 3px; */
 }
 
 h1,
