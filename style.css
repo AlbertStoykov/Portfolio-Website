@@ -43,8 +43,8 @@ body {
   background: var(--clr-dark);
   color: var(--clr-light);
   margin: 0;
-  font-family: var(--ff-primary);
-  /* font-size: var(--fs-body); */
+  /* font-family: var(--ff-primary); */
+  font-size: var(--fs-body);
   line-height: 1.6;
 }
 
@@ -59,7 +59,7 @@ img {
 
 :focus {
   outline: 3px solid var(--clr-accent);
-  /* outline-offset: 3px; */
+  outline-offset: 3px;
 }
 
 h1,
