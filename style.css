@@ -58,10 +58,10 @@ img {
   max-width: 100%;
 }
 
-:focus {
+/* :focus {
   outline: 3px solid var(--clr-accent);
   outline-offset: 3px;
-}
+} */
 
 h1,
 h2,
