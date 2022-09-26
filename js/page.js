@@ -8,6 +8,6 @@ function topnav() {
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    // x.className = "topnav";
   }
 }
