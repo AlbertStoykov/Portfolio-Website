@@ -122,8 +122,8 @@ h3 {
 
 .visible {
   opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
+  /* filter: blur(0);
+  transform: translateX(0); */
 }
 
 /* Header */
