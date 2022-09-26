@@ -12,4 +12,9 @@ function topnav() {
   }
 }
 
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+  });
+});
 const scrollElements = document.querySelectorAll(".scroll-animation");
