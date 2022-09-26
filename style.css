@@ -168,32 +168,19 @@ h3 {
   transition-delay: 500ms;
 }
 
-/* Email box Animation */
-.footer-segment:nth-child(1) {
-  transition-delay: 400ms;
-}
-.footer-segment:nth-child(2) {
-  transition-delay: 300ms;
-}
-.footer-segment:nth-child(3) {
-  transition-delay: 200ms;
-}
-.footer-segment:nth-child(4) {
-  transition-delay: 100ms;
-}
-
 /* Footer Animation */
+
 .footer-segment:nth-child(1) {
-  transition-delay: 400ms;
+  transition-delay: 700ms;
 }
 .footer-segment:nth-child(2) {
-  transition-delay: 300ms;
+  transition-delay: 500ms;
 }
 .footer-segment:nth-child(3) {
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 .footer-segment:nth-child(4) {
-  transition-delay: 100ms;
+  transition-delay: 150ms;
 }
 
 /* Header */
@@ -591,6 +578,17 @@ header {
   text-shadow: 1px 1px var(--clr-light);
 }
 
+.project_section__title::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  margin-bottom: 0px;
+  background: var(--clr-dark);
+  opacity: 0.5;
+}
+
 /* Contact */
 
 .contact_form {
@@ -617,6 +615,17 @@ header {
   padding: 1em;
   color: var(--clr-light);
   text-shadow: 1px 1px var(--clr-accent);
+}
+
+.section__title-contact::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  margin-bottom: 0px;
+  background: var(--clr-accent);
+  opacity: 0.5;
 }
 
 .contact_form_container {
