@@ -35,7 +35,6 @@
     </header>
 
     <!-- Intro -->
-    <h1 class="scroll-animation">Hello scroll animation</h1>
     <section class="intro" id="home">
       <h1 class="section__title section__title--intro scroll-animation">
         <strong>Albert Stoykov</strong>
@@ -51,12 +50,12 @@
     </section>
 
     <!-- Skills -->
-    <section class="my-skills scroll-animation" id="skills">
+    <section class="my-skills" id="skills">
       <h2 class="section__title section__title-skills">Skills</h2>
       <div class="skills-wrapper">
         <div class="pc-image">
           <!-- skill -->
-          <div class="skill">
+          <div class="skill scroll-animation">
             <img
               class="skill__item"
               src="https://img.icons8.com/color/96/000000/javascript--v2.png"
@@ -66,7 +65,7 @@
             <h3>JavaScript</h3>
           </div>
           <!-- skill -->
-          <div class="skill">
+          <div class="skill scroll-animation">
             <img
               class="skill__item"
               src="https://img.icons8.com/plasticine/100/000000/react.png"
@@ -76,7 +75,7 @@
             <h3>React</h3>
           </div>
           <!-- skill -->
-          <div class="skill">
+          <div class="skill scroll-animation">
             <img
               class="skill__item"
               src="https://img.icons8.com/color/96/000000/python--v1.png"
@@ -86,7 +85,7 @@
             <h3>Python</h3>
           </div>
           <!-- skill -->
-          <div class="skill">
+          <div class="skill scroll-animation">
             <img
               class="skill__item"
               src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-testing-big-data-flaticons-lineal-color-flat-icons.png"
@@ -347,5 +346,21 @@
       <!-- Footer -->
       <p class="copy">&copy; Copyright 2022. Built by Albert Stoykov</p>
     </footer>
+
+    <script>
+      console.log(1);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          console.log(entry);
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          } else {
+            entry.target.classList.remove("visible");
+          }
+        });
+      });
+      const scrollElements = document.querySelectorAll(".scroll-animation");
+      scrollElements.forEach((el) => observer.observe(el));
+    </script>
   </body>
 </html>
