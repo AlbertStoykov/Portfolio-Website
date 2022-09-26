@@ -11,3 +11,5 @@ function topnav() {
     x.className = "topnav";
   }
 }
+
+const scrollElements = document.querySelectorAll(".scroll-animation");
