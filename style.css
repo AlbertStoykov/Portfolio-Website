@@ -384,7 +384,13 @@ header {
 .about-me__img {
   box-shadow: 3px 2px 4px var(--clr-accent);
   border-radius: 6px;
-  max-width: 130%;
+}
+
+/* NFT image 130% on large screens */
+@media (min-width: 992px) {
+  .about-me__img {
+    max-width: 130%;
+  }
 }
 
 @media (min-width: 870px) {
