@@ -386,7 +386,7 @@ header {
   border-radius: 6px;
 }
 
-/* NFT image 130% on large screens */
+/* NFT image 140% on large screens */
 @media (min-width: 1272px) {
   .about-me__img {
     max-width: 140%;
