@@ -401,7 +401,7 @@ header {
       "title img"
       "subtitle img"
       "text img";
-    /* grid-column-gap: 3em; */
+    grid-column-gap: 3em;
   }
 
   .section__title--about {
