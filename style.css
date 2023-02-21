@@ -359,6 +359,8 @@ header {
   box-shadow: 2px 1px 5px 1px;
   padding: 20px;
   margin: 20px 0px auto;
+  text-shadow: 1px 1px var(--clr-light);
+
 }
 
 .skill__item:hover {
