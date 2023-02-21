@@ -292,7 +292,6 @@ header {
   position: relative;
   text-align: center;
   text-shadow: 1px 1px var(--clr-light);
-
 }
 
 .my-skills {
@@ -335,6 +334,10 @@ header {
     position: relative;
     margin: 0 auto;
   }
+
+  .skill__item {
+    max-width: 150px;
+  }
 }
 
 .skill + .skill {
@@ -356,7 +359,7 @@ header {
 
 .skill__item {
   background-color: transparent;
-  max-width: 150px;
+  min-width: 150px;
   border-radius: 20px;
   box-shadow: 2px 1px 5px 1px;
   padding: 20px;
