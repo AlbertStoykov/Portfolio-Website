@@ -354,7 +354,8 @@ header {
 
 .skill__item {
   background-color: transparent;
-  min-width: 150px;
+  min-width: 10px;
+  max-width: 150px;
   border-radius: 20px;
   box-shadow: 2px 1px 5px 1px;
   padding: 20px;
