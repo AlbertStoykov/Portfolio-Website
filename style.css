@@ -282,9 +282,9 @@ header {
   }
 }
 
-/* Skills */
+/* Technologies */
 
-.section__title-skills {
+.section__title-tech {
   color: var(--clr-accent);
   position: relative;
   top: 50px;
