@@ -215,6 +215,7 @@ header {
   text-decoration: none;
   font-family: var(--ff-secondary);
   font-size: var(--fs-h3);
+  font-weight: var(--ff-light));
   padding: 0.25em 1em;
   border-radius: 5px;
 }
