@@ -241,7 +241,7 @@ header {
 }
 
 .intro__img {
-  box-shadow: 3px 2px 4px var(--clr-accent);
+  /* box-shadow: 3px 2px 4px var(--clr-accent); */
   border-radius: 6px;
   max-width: 70%;
 }
@@ -272,7 +272,9 @@ header {
   }
 
   .section__minititle {
-    font-family: var(--ff-light);
+    font-family: var(--ff-primary-light);
+    font-size: var(--fs-h3);
+    font-weight: var(--ff-light);
   }
 
   .section__subtitle--intro {
@@ -283,6 +285,7 @@ header {
     position: relative;
     top: -110px;
     left: -1.5em;
+    height: 3rem;
     width: calc(100% + 3.5em);
     background: linear-gradient(
       to right,
