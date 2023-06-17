@@ -18,11 +18,10 @@ html {
 
   --clr-light: #fefcfd;
   --clr-dark: #051111;
-  /* --clr-accent: #7E52A0; */
-  /* --clr-accent: #5f5980; */
-  /* --clr-accent: #007991; */
-  /* --clr-accent: #136f63; */
-  --clr-accent: #006c67;
+  --clr-accent: #136f63;
+  --clr-accent: #5f5980;
+  --clr-accent: #7e52a0;
+  --clr-accent: #007991;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
