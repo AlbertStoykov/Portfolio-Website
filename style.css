@@ -295,14 +295,14 @@ header {
   margin-top: 10px;
 }
 
-.skills-wrapper {
+.tech-wrapper {
   display: table;
   position: relative;
   text-align: center;
   text-shadow: 1px 1px var(--clr-light);
 }
 
-.my-skills {
+.my-tech {
   background-color: var(--clr-dark);
   background-image: url(images/pc-coding.jpg);
   background-size: cover;
@@ -313,7 +313,7 @@ header {
   height: auto;
 }
 
-.section__title-skills::after {
+.section__title-tech::after {
   content: "";
   display: block;
   width: 10%;
@@ -325,7 +325,7 @@ header {
 }
 
 @media (min-width: 870px) {
-  .skills-wrapper {
+  .tech-wrapper {
     max-width: 800px;
     margin: 0 auto;
   }
@@ -337,7 +337,7 @@ header {
 }
 
 @media (max-width: 870px) {
-  .skills-wrapper {
+  .tech-wrapper {
     display: table;
     position: relative;
     margin: 0 auto;
@@ -568,7 +568,7 @@ header {
     margin: 10px auto;
   }
 
-  .my-skills {
+  .my-tech {
     width: 100%;
     height: auto;
   }
