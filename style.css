@@ -223,8 +223,8 @@ header {
 
 .topnav a:hover {
   background-color: var(--clr-accent);
-  color: black;
-  text-shadow: 1px 1px var(--clr-light);
+  color: var(--clr-dark);
+  /* text-shadow: 1px 1px var(--clr-light); */
   transition: 0.5s ease;
 }
 
