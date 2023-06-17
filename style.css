@@ -14,7 +14,8 @@ html {
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Roboto", sans-serif;
 
-  --ff-reg: 300;
+  --ff-light: 300;
+  --ff-: 300;
   --ff-bold: 900;
 
   --clr-light: #fefcfd;
