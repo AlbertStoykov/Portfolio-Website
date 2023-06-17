@@ -242,6 +242,7 @@ header {
 
 .intro__img {
   /* box-shadow: 3px 2px 4px var(--clr-accent); */
+
   border-radius: 6px;
   max-width: 70%;
 }
