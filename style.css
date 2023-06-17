@@ -277,9 +277,14 @@ header {
     grid-row: 2;
     text-align: right;
     position: relative;
-    top: -70px;
+    top: -110px;
     left: -1.5em;
-    width: calc(100% + 1.5em);
+    width: calc(100% + 3.5em);
+    background: linear-gradient(
+      to right,
+      rgba(100, 199, 223, 0.5),
+      rgb(114, 226, 189)
+    );
   }
 }
 
