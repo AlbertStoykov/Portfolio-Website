@@ -212,6 +212,7 @@ header {
   display: block;
   color: var(--clr-light);
   /* text-shadow: 1px 1px var(--clr-accent); */
+  text-align: center;
   text-decoration: none;
   font-family: var(--ff-primary-light);
   font-size: var(--fs-h3);
