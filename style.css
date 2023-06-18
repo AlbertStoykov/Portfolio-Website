@@ -269,9 +269,9 @@ header {
     display: grid;
     width: min-content;
     min-height: 650px;
-    top: 50em;
     margin: 7em auto;
-    grid-column-gap: 1.5em;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
     grid-template-areas:
       "img title"
       "img subtitle";
