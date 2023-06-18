@@ -33,7 +33,7 @@ html {
 
   --right-gradient: linear-gradient(
     to right,
-    rgba(100, 199, 223, 0.5),
+    rgba(100, 199, 223, 0.3),
     rgb(114, 226, 189)
   );
 
@@ -309,7 +309,7 @@ header {
     height: 3rem;
     width: calc(100% + 1.5em);
     background: var(--right-gradient);
-    /* font-size: 0; */
+    content-visibility: hidden;
   }
 }
 
