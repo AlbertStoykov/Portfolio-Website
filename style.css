@@ -304,12 +304,12 @@ header {
     grid-row: 2;
     text-align: right;
     position: relative;
-    top: -110px;
+    top: -100px;
     left: -1.5em;
     height: 3rem;
-    width: calc(100% + 3.5em);
+    width: calc(100% + 1.5em);
     background: var(--right-gradient);
-    font-size: 0;
+    /* font-size: 0; */
   }
 }
 
