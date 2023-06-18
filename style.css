@@ -31,8 +31,14 @@ html {
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
 
-  --gradient: linear-gradient(
+  --right-gradient: linear-gradient(
     to right,
+    rgba(100, 199, 223, 0.5),
+    rgb(114, 226, 189)
+  );
+
+  --top-gradient: linear-gradient(
+    to top,
     rgba(100, 199, 223, 0.5),
     rgb(114, 226, 189)
   );
@@ -247,7 +253,7 @@ header {
 }
 
 .intro__img {
-  box-shadow: 1px 1px 5px var(--clr-accent);
+  box-shadow: -2px -2px 5px var(--clr-accent);
   border-radius: 6px;
   max-width: 70%;
 }
@@ -293,11 +299,7 @@ header {
     left: -1.5em;
     height: 3rem;
     width: calc(100% + 3.5em);
-    background: linear-gradient(
-      to right,
-      rgba(100, 199, 223, 0.5),
-      rgb(114, 226, 189)
-    );
+    background: var(--right-gradient);
   }
 }
 
