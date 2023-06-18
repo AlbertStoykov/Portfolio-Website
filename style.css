@@ -300,6 +300,7 @@ header {
     height: 3rem;
     width: calc(100% + 3.5em);
     background: var(--right-gradient);
+    color: transparent;
   }
 }
 
@@ -362,6 +363,10 @@ header {
     display: table;
     position: relative;
     margin: 0 auto;
+  }
+
+  .section__subtitle--intro {
+    color: var(--ff-light);
   }
 
   .skill__item {
