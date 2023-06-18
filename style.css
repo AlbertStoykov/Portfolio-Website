@@ -271,7 +271,7 @@ header {
     min-height: 650px;
     margin: 7em auto;
     grid-column-gap: 2em;
-    grid-row-gap: 1em;
+    grid-row-gap: 2em;
     grid-template-areas:
       "img title"
       "img subtitle";
