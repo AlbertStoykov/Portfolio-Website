@@ -159,16 +159,16 @@ h3 {
 } */
 
 /* Technologies Animation */
-/* .skill:nth-child(1) {
+/* .tech:nth-child(1) {
   transition-delay: 800ms;
 }
-.skill:nth-child(2) {
+.tech:nth-child(2) {
   transition-delay: 600ms;
 }
-.skill:nth-child(3) {
+.tech:nth-child(3) {
   transition-delay: 400ms;
 }
-.skill:nth-child(4) {
+.tech:nth-child(4) {
   transition-delay: 200ms;
 } */
 
@@ -323,7 +323,7 @@ header {
   text-shadow: 1px 1px var(--clr-light);
 }
 
-.skill_text {
+.tech_text {
   margin-top: 10px;
 }
 
@@ -364,7 +364,7 @@ header {
 
   .pc-image {
     display: inline-block;
-    grid-template-areas: "skill skill skill skill";
+    grid-template-areas: "tech tech tech tech";
   }
 }
 
@@ -379,12 +379,12 @@ header {
     color: var(--ff-light);
   }
 
-  .skill__item {
+  .tech__item {
     max-width: 150px;
   }
 }
 
-.skill + .skill {
+.tech + .tech {
   margin-left: 1em;
 }
 
@@ -394,14 +394,14 @@ header {
   display: grid;
 }
 
-.skill {
+.tech {
   min-width: 50px;
   margin: 20px 20px 20px;
   float: left;
   padding: 3px;
 }
 
-.skill__item {
+.tech__item {
   background-color: transparent;
   min-width: 150px;
   border-radius: 20px;
@@ -410,7 +410,7 @@ header {
   margin: 20px 0px auto;
 }
 
-.skill__item:hover {
+.tech__item:hover {
   background-color: var(--clr-accent);
   transition: 0.4s;
 }
