@@ -269,7 +269,7 @@ header {
     min-height: 650px;
     top: 50em;
     margin: 7em auto;
-    grid-column-gap: 1em;
+    grid-column-gap: 1.5em;
     grid-template-areas:
       "img title"
       "img subtitle";
@@ -278,6 +278,7 @@ header {
 
   .section__title--intro {
     margin-top: 0.9em;
+    border: 1px solid;
   }
 
   .section__minititle {
