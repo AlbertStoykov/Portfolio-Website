@@ -265,6 +265,7 @@ header {
 
 @media (min-width: 700px) {
   .intro {
+    /* border: 1px solid; */
     display: grid;
     width: min-content;
     min-height: 650px;
