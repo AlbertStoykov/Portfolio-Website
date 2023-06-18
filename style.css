@@ -258,6 +258,10 @@ header {
   max-width: 70%;
 }
 
+.section__minititle {
+  display: none;
+}
+
 @media (min-width: 700px) {
   .intro {
     display: grid;
@@ -274,6 +278,10 @@ header {
 
   .section__title--intro {
     margin-top: 0.9em;
+  }
+
+  .section__minititle {
+    display: contents;
   }
 
   .intro__img {
@@ -295,7 +303,7 @@ header {
     grid-row: 2;
     text-align: right;
     position: relative;
-    top: -90px;
+    top: -110px;
     left: -1.5em;
     height: 3rem;
     width: calc(100% + 3.5em);
