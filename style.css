@@ -128,7 +128,7 @@ h3 {
   font-family: var(--ff-secondary);
   padding: 0.25em 1em;
   margin-bottom: 1em;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 /* Scroll Animation */
@@ -230,7 +230,7 @@ header {
   font-size: var(--fs-h3);
   font-weight: var(--ff-light);
   padding: 0.25em 1em;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .topnav a:hover {
@@ -676,7 +676,7 @@ header {
   max-width: 40rem;
   margin: 0 auto;
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 6px;
   box-shadow: 5px 10px 15px var(--clr-accent);
 }
 
@@ -694,7 +694,7 @@ header {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 6px;
   border: 2px outset;
   font-size: 1rem;
   text-indent: 5px;
@@ -718,7 +718,7 @@ textarea {
   margin: 5px 0;
   background-color: var(--clr-light);
   border: 2px solid var(--clr-accent);
-  border-radius: 5px;
+  border-radius: 6px;
   font-size: 1rem;
   font-weight: var(--ff-bold);
 }
