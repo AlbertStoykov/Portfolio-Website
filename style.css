@@ -344,7 +344,7 @@ header {
 
 .section__title-tech::after {
   content: "";
-  /* display: block; */
+  display: block;
   width: 10%;
   height: 1px;
   margin: 0.5em auto 1em;
