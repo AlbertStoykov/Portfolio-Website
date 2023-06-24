@@ -336,7 +336,7 @@ header {
   background-image: url(images/pc-coding.png);
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-position: right; */
+  background-position: right;
   color: var(--clr-accent);
 
   text-align: center;
