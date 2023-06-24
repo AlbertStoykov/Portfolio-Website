@@ -335,6 +335,7 @@ header {
   background-color: var(--right-gradient);
   background-image: url(images/pc-coding.png);
   background-size: contain;
+
   color: var(--clr-accent);
 
   text-align: center;
