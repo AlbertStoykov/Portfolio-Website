@@ -368,7 +368,8 @@ header {
     width: 100px;
     height: 100px;
     background-color: lightblue;
-    margin: 10px;
+    margin: 100px;
+    margin-bottom: 1rem;
   }
 
   .image {
@@ -400,13 +401,15 @@ header {
 }
 
 .tech-wrapper {
-  display: table;
-  position: relative;
-  text-align: center;
-  text-shadow: 1px 1px var(--clr-light);
+  /* display: table; */
+  /* position: relative; */
+  /* text-align: center; */
+  /* text-shadow: 1px 1px var(--clr-light); */
 }
 
 .my-tech {
+  display: flex;
+  flex-wrap: wrap;
   background-color: var(--right-gradient);
   background-image: url(images/pc-coding.png);
   background-size: contain;
@@ -432,8 +435,8 @@ header {
 
 @media (min-width: 870px) {
   .tech-wrapper {
-    max-width: 800px;
-    margin: 0 auto;
+    /* max-width: 800px; */
+    /* margin: 0 auto; */
   }
 
   .pc-image {
@@ -444,9 +447,9 @@ header {
 
 @media (max-width: 870px) {
   .tech-wrapper {
-    display: table;
-    position: relative;
-    margin: 0 auto;
+    /* display: table; */
+    /* position: relative; */
+    /* margin: 0 auto; */
   }
 
   .section__subtitle--intro {
@@ -459,7 +462,7 @@ header {
 }
 
 .tech + .tech {
-  margin-left: 1em;
+  /* margin-left: 1em; */
 }
 
 .pc-image {
@@ -472,7 +475,7 @@ header {
   min-width: 50px;
   margin: 20px 20px 20px;
   float: left;
-  padding: 3px;
+  /* padding: 3px; */
 }
 
 .tech__item {
