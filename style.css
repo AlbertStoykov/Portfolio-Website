@@ -432,13 +432,6 @@ header {
   width: 140%;
 }
 
-.tech-wrapper {
-  display: table;
-  position: relative;
-  text-align: center;
-  text-shadow: 1px 1px var(--clr-light);
-}
-
 .my-tech {
   display: flex;
   flex-wrap: wrap;
