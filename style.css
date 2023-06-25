@@ -453,18 +453,6 @@ header {
   height: auto;
 }
 
-@media (min-width: 870px) {
-  .tech-wrapper {
-    /* max-width: 800px; */
-    /* margin: 0 auto; */
-  }
-
-  .pc-image {
-    display: inline-block;
-    grid-template-areas: "tech tech tech tech";
-  }
-}
-
 @media (max-width: 870px) {
   .tech-wrapper {
     /* display: table; */
