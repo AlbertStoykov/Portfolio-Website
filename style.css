@@ -349,7 +349,7 @@ header {
 
 .section__subtitle--tech {
   background: var(--right-gradient);
-  display: contents;
+  display: block;
   height: 3rem;
   width: calc(100% + 1.5em);
   content-visibility: hidden;
@@ -397,6 +397,16 @@ header {
   }
   .section__title-tech {
     display: none;
+  }
+
+  .section__subtitle--tech {
+    background: var(--right-gradient);
+    display: contents;
+    height: 3rem;
+    width: calc(100% + 1.5em);
+    margin: 50px;
+    border: 1px solid white;
+    /* content-visibility: hidden; */
   }
 }
 /*  */
