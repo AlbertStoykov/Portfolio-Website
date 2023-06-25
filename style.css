@@ -19,7 +19,7 @@ html {
   --ff-reg: 400;
   --ff-bold: 900;
 
-  --clr-light: #fefcfd;
+  --clr-light: #ebfffd;
   --clr-dark: #051111;
   --clr-accent: #72e2bd;
 
@@ -322,6 +322,7 @@ header {
 .tech_container {
   display: flex;
   flex-wrap: wrap;
+  background-color: var(--clr-light);
 }
 
 .tech_left {
@@ -345,6 +346,7 @@ header {
 
 .image {
   height: auto;
+  width: auto;
 }
 
 .section__subtitle--tech {
@@ -414,7 +416,7 @@ header {
 /* Technologies */
 
 .section__title-tech {
-  color: var(--clr-accent);
+  color: var(--clr-dark);
   position: relative;
   /* top: -20px; */
   margin-left: 0.4em;
