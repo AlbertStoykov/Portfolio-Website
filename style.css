@@ -433,10 +433,10 @@ header {
 }
 
 .tech-wrapper {
-  /* display: table; */
-  /* position: relative; */
-  /* text-align: center; */
-  /* text-shadow: 1px 1px var(--clr-light); */
+  display: table;
+  position: relative;
+  text-align: center;
+  text-shadow: 1px 1px var(--clr-light);
 }
 
 .my-tech {
