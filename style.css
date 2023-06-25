@@ -357,7 +357,7 @@ header {
     align-items: center;
   }
 
-  .right {
+  .tech_right {
     flex: 1;
     display: flex;
     justify-content: center;
