@@ -352,6 +352,8 @@ header {
 }
 
 .section__subtitle--tech {
+  background: var(--right-gradient);
+  display: contents;
   height: 3rem;
   width: calc(100% + 1.5em);
   content-visibility: hidden;
