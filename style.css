@@ -319,7 +319,7 @@ header {
 /*  */
 /* Technologies */
 /*  */
-.container {
+.tech_container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -356,7 +356,7 @@ header {
 }
 
 @media (max-width: 800px) {
-  .container {
+  .tech_container {
     display: flex;
     flex-wrap: wrap;
   }
