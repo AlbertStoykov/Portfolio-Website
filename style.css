@@ -263,10 +263,6 @@ header {
   display: none;
 }
 
- {
-  display: none;
-}
-
 @media (min-width: 700px) {
   .intro {
     display: grid;
