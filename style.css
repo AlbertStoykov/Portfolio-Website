@@ -454,12 +454,6 @@ header {
 }
 
 @media (max-width: 870px) {
-  .tech-wrapper {
-    /* display: table; */
-    /* position: relative; */
-    margin: 10px auto;
-  }
-
   .section__subtitle--intro {
     color: var(--ff-light);
   }
