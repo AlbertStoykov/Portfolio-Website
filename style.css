@@ -381,7 +381,7 @@ header {
   }
 
   .left {
-    flex: 100%;
+    flex-basis: 100%;
   }
 }
 /*  */
@@ -457,7 +457,7 @@ header {
   }
 
   .tech__item {
-    max-width: 150px;
+    /* max-width: 150px; */
   }
 }
 
@@ -480,11 +480,10 @@ header {
 
 .tech__item {
   background-color: transparent;
-  min-width: 150px;
   border-radius: 20px;
-  box-shadow: 2px 1px 5px 1px;
+  box-shadow: 1px 1px 2px 1px;
   padding: 20px;
-  margin: 20px 0px auto;
+  margin: 20px;
 }
 
 .tech__item:hover {
