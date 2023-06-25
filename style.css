@@ -351,6 +351,12 @@ header {
   height: auto;
 }
 
+.section__subtitle--tech {
+  height: 3rem;
+  width: calc(100% + 1.5em);
+  content-visibility: hidden;
+}
+
 @media (max-width: 800px) {
   .container {
     display: flex;
