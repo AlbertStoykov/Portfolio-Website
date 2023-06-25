@@ -424,6 +424,7 @@ header {
 }
 
 .tech_text {
+  color: var(--clr-dark);
   margin-top: 10px;
 }
 
