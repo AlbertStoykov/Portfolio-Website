@@ -258,7 +258,12 @@ header {
   max-width: 70%;
 }
 
-.section__minititle {
+.section__minititle,
+.section__title-tech {
+  display: none;
+}
+
+ {
   display: none;
 }
 
