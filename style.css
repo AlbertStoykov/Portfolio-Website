@@ -346,7 +346,6 @@ header {
 }
 
 .image {
-  /* max-width: 100%; */
   height: auto;
 }
 
@@ -447,7 +446,7 @@ header {
   .tech-wrapper {
     /* display: table; */
     /* position: relative; */
-    /* margin: 0 auto; */
+    margin: 0 auto;
   }
 
   .section__subtitle--intro {
