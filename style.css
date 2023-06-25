@@ -379,8 +379,8 @@ header {
   .tech {
     width: 100px;
     height: 100px;
-    background-color: lightblue;
     margin: 100px;
+    justify-content: center;
     margin-bottom: 1rem;
   }
 
@@ -404,8 +404,6 @@ header {
     display: contents;
     height: 3rem;
     width: calc(100% + 1.5em);
-    margin: 50px;
-    border: 1px solid white;
     /* content-visibility: hidden; */
   }
 }
