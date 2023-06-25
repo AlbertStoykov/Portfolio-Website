@@ -311,12 +311,12 @@ header {
     content-visibility: hidden;
   }
 
-  .section__title-tech {
-    display: none;
-  }
-
   .section__subtitle--tech {
     margin-left: 1em;
+  }
+
+  .section__title-tech {
+    display: none;
   }
 }
 
@@ -390,6 +390,10 @@ header {
 
   .tech_left {
     flex-basis: 100%;
+  }
+
+  .section__title-tech {
+    display: none;
   }
 }
 /*  */
