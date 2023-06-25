@@ -264,7 +264,6 @@ header {
 
 @media (min-width: 700px) {
   .intro {
-    /* border: 1px solid; */
     display: grid;
     width: min-content;
     min-height: 650px;
@@ -314,7 +313,6 @@ header {
 
   .section__subtitle--tech {
     margin-left: 1em;
-    width: 100%;
   }
 }
 
