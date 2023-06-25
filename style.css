@@ -416,8 +416,8 @@ header {
 .section__title-tech {
   color: var(--clr-accent);
   position: relative;
-  top: -20px;
-  margin: 20px;
+  /* top: -20px; */
+  margin-left: 0.4em;
   text-shadow: 1px 1px var(--clr-light);
 }
 
