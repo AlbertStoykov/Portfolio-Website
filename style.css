@@ -314,10 +314,6 @@ header {
   .section__subtitle--tech {
     margin-left: 1em;
   }
-
-  .section__title-tech {
-    display: none;
-  }
 }
 
 /*  */
@@ -399,7 +395,6 @@ header {
   .tech_left {
     flex-basis: 100%;
   }
-
   .section__title-tech {
     display: none;
   }
@@ -433,7 +428,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--right-gradient);
-  background-image: url(images/pc-coding.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -460,7 +454,7 @@ header {
   .tech-wrapper {
     /* display: table; */
     /* position: relative; */
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   .section__subtitle--intro {
