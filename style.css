@@ -258,8 +258,7 @@ header {
   max-width: 70%;
 }
 
-.section__minititle,
-.section__title-tech {
+.section__minititle {
   display: none;
 }
 
@@ -310,6 +309,10 @@ header {
     width: calc(100% + 1.5em);
     background: var(--right-gradient);
     content-visibility: hidden;
+  }
+
+  .section__title-tech {
+    display: none;
   }
 
   .section__subtitle--tech {
