@@ -393,7 +393,8 @@ header {
 .section__title-tech {
   color: var(--clr-accent);
   position: relative;
-  top: 50px;
+  top: -20px;
+  margin: 20px;
   text-shadow: 1px 1px var(--clr-light);
 }
 
@@ -421,17 +422,6 @@ header {
   text-align: center;
   width: 100%;
   height: auto;
-}
-
-.section__title-tech::after {
-  content: "";
-  display: block;
-  width: 10%;
-  height: 1px;
-  margin: 0.5em auto 1em;
-  margin-bottom: -70px;
-  background: var(--clr-accent);
-  opacity: 0.5;
 }
 
 @media (min-width: 870px) {
