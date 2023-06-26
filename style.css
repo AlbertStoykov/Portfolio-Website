@@ -115,11 +115,6 @@ h3 {
 }
 
 .section__subtitle--intro,
-.section__subtitle--tech {
-  display: inline-block;
-}
-
-.section__subtitle--intro,
 .section__subtitle--about,
 .section__subtitle--tech {
   display: inline-block;
