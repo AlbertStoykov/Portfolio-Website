@@ -346,7 +346,7 @@ header {
 
 .section__subtitle--tech {
   background: var(--right-gradient);
-  display: block;
+  /* display: block; */
   height: 3rem;
   width: calc(100% + 1.5em);
   content-visibility: hidden;
@@ -398,10 +398,9 @@ header {
 
   .section__subtitle--tech {
     background: var(--right-gradient);
-    display: contents;
     height: 3rem;
-    width: calc(100% + 1.5em);
-    /* content-visibility: hidden; */
+    width: 100%;
+    content-visibility: visible;
   }
 }
 /*  */
