@@ -399,6 +399,7 @@ header {
   .section__subtitle--tech {
     background: var(--right-gradient);
     height: 3rem;
+    margin-left: 0.1em;
     width: 100%;
     content-visibility: visible;
     text-align: center;
