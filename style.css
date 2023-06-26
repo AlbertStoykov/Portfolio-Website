@@ -509,6 +509,10 @@ header {
   .about-me__img {
     max-width: 140%;
   }
+
+  .tech_wrapper {
+    padding-bottom: 10em;
+  }
 }
 
 @media (min-width: 870px) {
