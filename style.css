@@ -404,6 +404,10 @@ header {
     content-visibility: visible;
     text-align: center;
   }
+
+  .tech_container {
+    margin-left: -1em;
+  }
 }
 /*  */
 /* Technologies */
