@@ -401,6 +401,7 @@ header {
     height: 3rem;
     width: 100%;
     content-visibility: visible;
+    text-align: center;
   }
 }
 /*  */
