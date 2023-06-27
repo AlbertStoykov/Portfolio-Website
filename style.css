@@ -396,10 +396,14 @@ header {
     display: none;
   }
 
+  .tech_wrapper {
+    justify-content: center;
+  }
   .section__subtitle--tech {
     background: var(--right-gradient);
     font-size: var(--fs-h2);
-    height: 3rem;
+    margin-top: -0.5em;
+    height: 4rem;
     margin-left: 0.1em;
     margin-bottom: 0.2em;
     width: 100%;
