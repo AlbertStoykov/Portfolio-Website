@@ -404,7 +404,7 @@ header {
     font-size: var(--fs-h2);
     color: var(--clr-dark);
     text-shadow: 1px 1px 1px var(--clr-light);
-    font-weight: var(--ff-bo);
+    font-weight: var(--ff-bold);
     margin-top: -0.5em;
     height: 4rem;
     margin-left: 0.1em;
