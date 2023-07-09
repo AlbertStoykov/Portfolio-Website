@@ -400,7 +400,7 @@ header {
     justify-content: center;
   }
   .section__subtitle--tech {
-    background: var(--right-gradient);
+    /* background: var(--right-gradient); */
     font-size: var(--fs-h2);
     color: var(--clr-dark);
     text-shadow: 1px 1px 1px var(--clr-light);
