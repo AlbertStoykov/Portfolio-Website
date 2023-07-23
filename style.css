@@ -614,9 +614,6 @@ header {
   border-radius: 15px;
 }
 
-.summaraise {
-  size: 80%;
-}
 .card .card_content {
   position: relative;
   z-index: 3;
